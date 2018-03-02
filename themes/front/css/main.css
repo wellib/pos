@@ -1,0 +1,337 @@
+body{
+    /*background-color: #2b3e50;*/
+    padding-bottom: 50px;
+    font-size: 13px;
+    background-image: url('/themes/front/images/Bitmap.jpg');
+}
+
+select{
+    height: 26px;
+}
+
+label{
+    margin-bottom: 0;
+}
+
+table{background-color: white;}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td{
+    vertical-align: middle;
+}
+
+#sidebar{
+    margin-top: 72px;
+}
+
+#login-form1{
+    width: 325px;
+    position: absolute;
+    left: 50%;
+    margin-left: -165px;
+    top: 50%;
+    margin-top: -150px;
+}
+
+.s-column{
+    width: 75px;
+    text-align: center;
+}
+
+.m-column{
+    width: 100px;
+    text-align: center;
+}
+
+.i-column{
+    width: 135px;
+    text-align: center;
+}
+
+.l-column{
+    width: 175px;
+    text-align: center;
+}
+
+.xl-column{
+    width: 225px;
+    text-align: center;
+}
+
+.grid-view, .list-view, .detail-view, .form, .m-form{
+    padding: 15px 0 !important;
+}
+
+.form table input{
+    width: 90%;
+}
+
+.grid-view table tr.selected{
+    background: #CCFF66;
+}
+
+.grid-view table th a.asc{
+    background: url(../images/up_arrow.png) right center no-repeat;
+    padding-right: 12px;
+}
+
+.grid-view table th a.desc{
+    background: url(../images/down_arrow.png) right center no-repeat;
+    padding-right: 12px;
+}
+
+.bs-callout {
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 3px solid #eee;
+}
+
+.bs-callout-right {
+    margin: 0 0 20px 0;
+    padding: 20px;
+    border-right: 3px solid #eee;
+}
+
+.bs-callout:first-child{
+    margin-top: 0;
+}
+
+.bs-callout-info {
+    background-color: #f4f8fa;
+    border-color: #5bc0de;
+}
+
+.panel-heading{
+    text-align: center;
+    font-weight: bold;
+}
+
+.margin-left{
+    margin-left: 15px;
+}
+
+.invoice-type{
+    text-align: center;
+    line-height: 70px;
+}
+
+.invoice-type a{
+    display: block;
+    cursor: pointer;
+}
+
+.invoice-type a:hover{
+   text-decoration: none;
+}
+
+.tasks-add, .tasks-add1{
+    visibility: hidden;
+}
+
+.nulled-input{
+    border: none;
+    outline: none;
+    background: transparent;
+    text-align: center;
+}
+
+.id-field{
+    width: 100%;
+}
+
+.top-tabs-menu{
+    margin: 25px 0;
+   /* display: none;*/
+    
+}
+
+.operations{
+    padding-left: 20px;
+}
+
+.product-additional-info .label{
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.ui-dialog .reports-modal{
+    padding-top: 30px !important;
+}
+
+.report-form-button{
+    display: inline-block;
+    margin-top: 25px;
+    border: 1px solid #d3d3d3;
+    background: #e6e6e6 url("../images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
+    font-weight: normal;
+    color: #555555;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.report-form-button:hover{
+    background: #e6e6e6 url("../images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x;
+    text-decoration: none;
+}
+
+.report-form-loader{
+    float: right;
+    margin-top: 33px;
+    margin-right: 10px;
+    display: none;
+}
+
+.client-form-loader{
+    float: right;
+    margin-top: 4px;
+    margin-left: 15px;
+    display: none;
+}
+
+.provider-form-loader{
+    float: right;
+    margin-top: 4px;
+    margin-left: 15px;
+    display: none;
+}
+
+.return-button{
+
+}
+
+.create-button{
+
+}
+
+.full-width{
+    width: 100% !important;
+}
+
+.half-field{
+    width: 65% !important;
+}
+
+.quarter-field{
+    width: 25% !important;
+}
+
+.small-field{
+    width: 10px !important;
+}
+
+.delete-row{
+    cursor: pointer;
+}
+
+.return-label{
+    font-size: 12px;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.ui-dialog .ui-dialog-titlebar-close span {
+    margin: 0px !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #d3d3d3;
+    background: #e6e6e6 url("../images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
+    font-weight: normal;
+    color: #555;
+    font-size: 11px !important;
+}
+
+.ui-datepicker-calendar, .ui-datepicker-header{
+    font-size: 11px !important;
+}
+
+.ui-widget-content{
+    font-size: 12px !important;
+}
+
+/* css for timepicker */
+
+.ui-timepicker-div, .ui-datepicker-buttonpane .ui-datepicker-current, .ui-datepicker-buttonpane .ui-datepicker-close { font-size: 0.9em; }
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 45%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 45% 10px 10px; }
+
+/* css for autocomplete */
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+
+#menu-popup {
+    position: absolute;
+    z-index: 1;
+    background: #157ab5;
+    /*background-image: url('/themes/front/images/Bitmap.jpg');*/
+    /*background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);*/
+    color: #fff;
+    padding: 10px 20px;
+    top: 40px;
+    display: none;
+}
+#menu-popup ul {
+     padding: 0;
+}
+#menu-popup li {
+    list-style: none;
+}
+#menu-popup li a {
+    color: #fff;
+}
+a.butlink {
+    width: 70px;
+    display: block;
+    float: left;
+    background: #157ab5;
+    /*background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);*/
+    margin: 15px 10px 5px 0;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+	border-radius: 0px;
+}
+a:hover{text-decoration: none;}
+.error {
+    border: 1px solid red;
+    background: red none repeat scroll 0% 0%;
+}
+..table-bordered{border-color: none;}
+.allcounts{
+	background-color: #f5f5f5;
+	margin-top: 40px;
+	float: right;
+	width: 200px;
+	border-radius: 2px;
+	margin-left: 15px;
+}
